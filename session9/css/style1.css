@@ -1,0 +1,28 @@
+*{
+	padding: 0;
+	margin: 0;
+}
+#containter{
+	width: 90%;
+	padding: 5px 50px;
+	margin: 0 auto;
+	border-radius: 15px;
+	border: 2px solid green;
+	height: 800px;
+}
+h1{
+	margin-bottom: 20px;
+}
+input.input-text{
+	width:300px;
+	margin-bottom: 20px;
+	height: 20px;
+}
+input.input-submit{
+	margin-left: 47px;
+	margin-top: 20px;
+}
+.select-city{
+	width: 300px;
+	height: 100px;
+}
