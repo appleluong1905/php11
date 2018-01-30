@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Example 4 - Session 11</title>
+	<style type="text/css">
+		body{
+			width: 60%;
+		}
+		div{
+			width: 30%;
+			float: left;
+			border: 2px solid green;
+			padding: 5px 20px;
+			margin: 10px;
+		}
+		#avatar, #girlavatar{
+			width: 250px;
+			height: 300px;
+		}
+	</style>
+</head>
+<body>
+	<div onclick = "changeCongPhuong()">Cong Phuong</div>
+	<div onclick="changeXuanTruong()">Xuan Truong</div>
+	<div onclick="changeQuangHai()">Quang Hai</div>
+	<div onclick="changeTienDung()">Tien Dung</div>
+	<div>
+		<img src="avatar-default.png" id = "avatar">
+	</div>
+	<div id="faviourite">
+		<h2>So thich cong phuong:</h2>
+		<ul>
+			<li>Da bong</li>
+			<li>Choi game</li>
+			<li>Xem phim</li>
+		</ul>
+	</div>
+	<div id="girlfriend">
+		<h2>Co ban gai chua?</h2>
+		<span>Yes?</span> | <span>No?</span>
+	</div>
+	<div>
+		<img src="avatar.jpg" id = "girlavatar">
+	</div>
+	<script type="text/javascript" src="js/common5.js"></script>
+</body>
+</html>
